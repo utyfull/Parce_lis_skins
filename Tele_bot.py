@@ -58,8 +58,8 @@ async def start_handler(message: types.Message):
             card = f'{hlink(item.get("name"), item.get("href"))}\n' \
                    f'{hlink(item.get("name"), item.get("link"))}\n' \
                    f'{hbold("Discount: ")}{item.get("discount")}\n' \
-                   f'{hbold("Price_first: ")}rub{item.get("price_first")}\n' \
-                   f'{hbold("Price_second: ")}rub{item.get("price_second")}'
+                   f'{hbold("Price_first: ")}{item.get("price_first")}\n' \
+                   f'{hbold("Price_second: ")}{item.get("price_second")}'
 
             if index % 1 == 0:
                 time.sleep(5)
@@ -80,8 +80,8 @@ async def start_handler(message: types.Message):
             card = f'{hlink(item.get("name"), item.get("href"))}\n' \
                    f'{hlink(item.get("name"), item.get("link"))}\n' \
                    f'{hbold("Discount: ")}{item.get("discount")}\n' \
-                   f'{hbold("Price_first: ")}rub{item.get("price_first")}\n' \
-                   f'{hbold("Price_second: ")}rub{item.get("price_second")}'
+                   f'{hbold("Price_first: ")}{item.get("price_first")}\n' \
+                   f'{hbold("Price_second: ")}{item.get("price_second")}'
 
             if index % 1 == 0:
                 time.sleep(5)
@@ -102,8 +102,8 @@ async def start_handler(message: types.Message):
             card = f'{hlink(item.get("name"), item.get("href"))}\n' \
                    f'{hlink(item.get("name"), item.get("link"))}\n' \
                    f'{hbold("Discount: ")}{item.get("discount")}\n' \
-                   f'{hbold("Price_first: ")}rub{item.get("price_first")}\n' \
-                   f'{hbold("Price_second: ")}rub{item.get("price_second")}'
+                   f'{hbold("Price_first: ")}{item.get("price_first")}\n' \
+                   f'{hbold("Price_second: ")}{item.get("price_second")}'
 
             if index % 20 == 0:
                 time.sleep(5)
